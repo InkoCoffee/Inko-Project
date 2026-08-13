@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inko | Bishkek</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- INTRO VIDEO OVERLAY -->
+<div class="intro-video-overlay" id="introOverlay">
+    <video id="introVideo" playsinline muted>
+        <source src="intro.mp4" type="video/mp4">
+    </video>
+    <img src="Logo.png" alt="Inko Logo" class="intro-logo">
+    
+    <!-- ДОБАВЬТЕ ЭТУ СТРОКУ -->
+    <button id="skipIntroBtn" class="skip-intro-btn">Пропустить</button>
+</div>
+
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <div class="logo-container">
+            <img src="Logo.png" alt="Inko Logo" class="logo-img">
+        </div>
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html">Главная</a>
+            <a href="menu.html">Меню</a>
+            <a href="#about">Про нас</a>
+            <a href="#contact">Контакты</a>
+        </nav>
+        <div class="menu-toggle" id="menuToggle">&#9776;</div>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Отдохни со вкусом.</h1>
+            <a href="menu.html" class="btn">Меню</a>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <h2>Про нас</h2>
+            <p>Кофейня Inko - это место, где каждый гость может насладиться качественным кофе и уютной атмосферой. Мы гордимся тем, что предлагаем лучшие сорта кофе и создаем комфортные условия для работы и отдыха.</p>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section">
+        <h2>Visit Us</h2>
+        <p><strong>Адрес:</strong> Бишкек, Свердловский район, ул. Московская 51</p>
+        <p><strong>Время Работы:</strong> 08:00 - 20:00</p>
+        <p><strong>Instagram:</strong> @Inko_Coffee</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Inko Bishkek.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

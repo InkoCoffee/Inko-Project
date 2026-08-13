@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inko | Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <div class="logo-container">
+            <img src="Logo.png" alt="Inko Logo" class="logo-img">
+        </div>
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html">Главная</a>
+            <a href="#menu">Меню</a>
+            <a href="index.html">Про нас</a>
+            <a href="#contact">Контакты</a>
+        </nav>
+        <div class="menu-toggle" id="menuToggle">&#9776;</div>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Наше меню</h1>
+            <p>Широкий выбор кофе, чая и десертов</p>
+        </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu" class="menu-section-page">
+        <div class="menu-divider"></div>
+        <div class="menu-container">
+            <h2>Наше меню</h2>
+            <div class="menu-header">
+                <div class="menu-filters">
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">Все</button>
+                        <button class="filter-btn" data-filter="coffee">Кофе</button>
+                        <button class="filter-btn" data-filter="tea">Чай</button>
+                        <button class="filter-btn" data-filter="desserts">Десерты</button>
+                    </div>
+                    <div class="search-box">
+                        <input type="text" id="searchInput" class="search-input" placeholder="Search...">
+                    </div>
+                </div>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-card" data-category="coffee">
+                    <img src="cappuccino.jpg" alt="Cappuccino" class="card-img">
+                    <div class="card-body">
+                        <h3>Капучино</h3>
+                        <p>Популярный кофейный напиток из эспрессо, горячего молока и плотной молочной пенки</p>
+                        <span class="price">180 KGS</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="coffee">
+                    <img src="raf.jpg" alt="Raf Coffee" class="card-img">
+                    <div class="card-body">
+                        <h3>Кофе Раф</h3>
+                        <p>Популярный кофейный напиток на основе эспрессо, ванильного сахара и сливок, взбитых вместе до нежной пены</p>
+                        <span class="price">280 KGS</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="tea">
+                    <img src="matcha.jpg" alt="Matcha Latte" class="card-img">
+                    <div class="card-body">
+                        <h3>Матча Латте</h3>
+                        <p>Популярный горячий или холодный напиток на основе японского зеленого порошкового чая матча и взбитого молока</p>
+                        <span class="price">200 KGS</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="coffee">
+                    <img src="espresso.jpg" alt="Espresso" class="card-img">
+                    <div class="card-body">
+                        <h3>Espresso</h3>
+                        <p>Классический крепкий черный кофе</p>
+                        <span class="price">180 KGS</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="coffee">
+                    <img src="latte.jpg" alt="Latte" class="card-img">
+                    <div class="card-body">
+                        <h3>Латте</h3>
+                        <p>Мягкий кофейно-молочный напиток из порции эспрессо, большого количества горячего молока и тонкого слоя нежной пены</p>
+                        <span class="price">180 KGS</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="coffee">
+                    <img src="americano.jpg" alt="Americano" class="card-img">
+                    <div class="card-body">
+                        <h3>Американо</h3>
+                        <p>Классический черный кофе, который делают из одной или двух порций эспрессо и горячей воды</p>
+                        <span class="price">150 Сом</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="desserts">
+                    <img src="ThreeChocolates.jpg" alt="Three Chocolate" class="card-img">
+                    <div class="card-body">
+                        <h3>Три Шоколада</h3>
+                        <p>Торт-десерт из трех сливочных муссов из белого, молочного и темного шоколада</p>
+                        <span class="price">250 Сом</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section">
+        <h2>Visit Us</h2>
+        <p><strong>Адрес:</strong> Бишкек, Свердловский район, ул. Московская 51</p>
+        <p><strong>Время Работы:</strong> 08:00 - 20:00</p>
+        <p><strong>Instagram:</strong> @Inko_Coffee</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Inko Bishkek.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
